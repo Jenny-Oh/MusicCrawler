@@ -17,7 +17,7 @@ const { type } = require("@testing-library/user-event/dist/type");
 const { Router } = require("express");
 mongoose.set("strictQuery", true);
 mongoose.connect(
-  "mongodb+srv://doragee810:marklee99!@hellomongo.vws50y5.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://doragee810:<password>@hellomongo.vws50y5.mongodb.net/?retryWrites=true&w=majority"
 );
 
 var db = mongoose.connection;
